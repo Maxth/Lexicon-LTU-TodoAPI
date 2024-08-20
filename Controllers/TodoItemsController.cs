@@ -51,7 +51,6 @@ namespace TodoApi.Controllers
             {
                 return BadRequest();
             }
-
             _context.Entry(todoItem).State = EntityState.Modified;
 
             try
